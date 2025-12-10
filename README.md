@@ -35,6 +35,7 @@ Dynamic Input Fields (sliders, dropdowns, and numeric inputs)
 
 # 📂 Project Structure
 📦 House-Price-Prediction
+
  ┣ 📜 app.py                     # Streamlit app
  ┣ 📜 model_train.py             # Model training and preprocessing
  ┣ 📜 train.csv                  # Dataset
@@ -51,8 +52,10 @@ Below are some of the insights from EDA visualizations:
 1️⃣ Top Features with Missing Values
 Shows which columns had the most missing data before cleaning.
 
+
 2️⃣ Correlation Heatmap
 Displays the relationships between numeric features like GrLivArea, GarageCars, and SalePrice.
+
 
 3️⃣ Top 10 Important Features
 Highlights the most influential features contributing to the predicted sale price.
@@ -87,22 +90,10 @@ Animated buttons and EDA toggles
 
 Clean separation of Home and Prediction pages
 
-📈 Sample Output
+# 📈 Sample Output
 | Feature     | Input Value | Predicted Price |
 | ----------- | ----------- | --------------- |
 | OverallQual | 7           | $210,000        |
 | GrLivArea   | 1650        | $208,450        |
 | GarageCars  | 2           | $215,900        |
 | YearBuilt   | 2003        | $221,700        |
-
-# Graphs
-## 📊 Exploratory Data Analysis  
-
-### 1️⃣ Top Features with Missing Values  
-![Missing Values](https://raw.githubusercontent.com/Aryanambre77/House-Price-Prediction-System-Using-EDA/main/assets/missing_values.png)
-
-### 2️⃣ Correlation Heatmap  
-![Correlation Heatmap](https://raw.githubusercontent.com/Aryanambre77/House-Price-Prediction-System-Using-EDA/main/assets/correlation_heatmap.png)
-
-### 3️⃣ Top 10 Important Features  
-![Feature Importance](https://raw.githubusercontent.com/Aryanambre77/House-Price-Prediction-System-Using-EDA/main/assets/feature_importance.png)
