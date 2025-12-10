@@ -115,3 +115,17 @@ Clean separation of Home and Prediction pages
 | GrLivArea   | 1650        | $208,450        |
 | GarageCars  | 2           | $215,900        |
 | YearBuilt   | 2003        | $221,700        |
+
+
+# 💡 Future Enhancements
+
+Add Random Forest and XGBoost comparison
+
+Include feature engineering and outlier detection
+
+Deploy the app using Streamlit Cloud or AWS EC2
+
+
+# 🧾 License
+
+This project is open-source and available under the MIT License.
