@@ -3,10 +3,12 @@
 This project predicts Ames housing prices using Exploratory Data Analysis (EDA) and a Linear Regression model.
 It includes a clean, dark-themed Streamlit web app where users can input property details and instantly get a predicted price, along with visual insights from EDA.
 
+
 # 🔍 Overview
 
 The goal of this project is to analyze how various housing features — such as overall quality, living area, neighborhood, and year built — influence property prices.
 Using the Ames Housing Dataset, this app performs data preprocessing, visualization, and prediction through an interactive interface.
+
 
 # ⚙️ Features
 
@@ -21,6 +23,7 @@ Dark Spotify-inspired UI theme
 PDF Export Option for EDA charts
 
 Dynamic Input Fields (sliders, dropdowns, and numeric inputs)
+
 
 # 🧠 Tech Stack
 | Component          | Technology Used                                 |
@@ -37,18 +40,28 @@ Dynamic Input Fields (sliders, dropdowns, and numeric inputs)
 📦 House-Price-Prediction
 
  ┣ 📜 app.py                     # Streamlit app
+ 
  ┣ 📜 model_train.py             # Model training and preprocessing
+ 
  ┣ 📜 train.csv                  # Dataset
+ 
  ┣ 📜 model_input_template.csv   # Template for input features
+ 
  ┣ 📜 linear_model.pkl           # Trained model
+ 
  ┣ 📜 scaler.pkl                 # Feature scaler
+ 
  ┣ 📜 EDA_Report.pdf             # Exported EDA report
+ 
  ┣ 📂 assets/                    # Graph images used in README
+ 
  ┗ 📜 README.md                  # Project documentation
+
 
 # 📊 Exploratory Data Analysis
 
 Below are some of the insights from EDA visualizations:
+
 1️⃣ Top Features with Missing Values
 Shows which columns had the most missing data before cleaning.
 
@@ -60,19 +73,23 @@ Displays the relationships between numeric features like GrLivArea, GarageCars, 
 3️⃣ Top 10 Important Features
 Highlights the most influential features contributing to the predicted sale price.
 
+
 # 🚀 How to Run the Project
 
 Clone the repository:
 git clone https://github.com/<your-username>/Vidyarthi-Saathi.git
+
 cd House-Price-Prediction
 
 Install dependencies:
 pip install -r requirements.txt
 
+
 #  Run the app:
 streamlit run app.py
 
 Open the provided localhost URL in your browser.
+
 
 # 🧩 Model Insights
 
@@ -81,6 +98,7 @@ GrLivArea, OverallQual, and YearBuilt are strong predictors of sale price.
 Higher OverallQual (material & finish quality) leads to higher prices.
 
 Neighborhoods have a noticeable impact on housing value distribution.
+
 
 # 🖤 UI Highlights
 
